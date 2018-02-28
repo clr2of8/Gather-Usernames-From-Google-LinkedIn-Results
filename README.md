@@ -4,7 +4,7 @@ As part of reconnaissance when performing a penetration test, it is often useful
 To collect employee names with Burp, you'll need to do the following steps.
 
 ## Step 1
-Install the Python Scripter extension from the Extender-->BApp Store tab in Burp Suite Pro
+Install the Python Scripter extension from the *Extender-->BApp* Store tab in Burp Suite Pro
 
 ![Python Scripter Extension](https://github.com/clr2of8/Gather-Usernames-From-Google-LinkedIn-Results/raw/master/images/python-scripter.png)
 
