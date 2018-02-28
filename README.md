@@ -1,6 +1,6 @@
 # Gathering Usernames from Google LinkedIn Results using Burp Suite Pro
 
-As part of reconnaissance when performing a penetration test, it is often useful to gather usernames. The usernames may come in handy for performing a [password spraying attack](http://www.blackhillsinfosec.com/?p=4694) for example. One easy way to gather employee names is to use a Burp Suite Pro extension with a little Python script as described in this blog. You can then massage these employee names into any username format. You may be able to discover the username format by analyzing the metadata of documents posted to a company's public web sites as described [here](http://www.blackhillsinfosec.com/?p=4694).
+As part of reconnaissance when performing a penetration test, it is often useful to gather usernames. The usernames may come in handy for performing a [password spraying attack](http://www.blackhillsinfosec.com/?p=4694) for example. One easy way to gather employee names is to use a Burp Suite Pro extension with a little Python script as described in this blog. You can then massage these employee names into any username format. You may be able to discover the username format by analyzing the metadata of documents posted to a company's public web sites as described [here](https://github.com/dafthack/PowerMeta).
 To collect employee names with Burp, you'll need to do the following steps.
 
 ## Step 1
@@ -15,7 +15,7 @@ You may need to download the Jython standalone JAR file and point Burp to it if 
 ![Jython](https://github.com/clr2of8/Gather-Usernames-From-Google-LinkedIn-Results/raw/master/images/jython.png)
 
 ## Step 3
-Copy and paste code from this repo into the newly available "Script" tab. Be sure to copy code from the “Raw” view in BitBucket so that the carriage returns and indentation copy correctly.
+Copy and paste code from this repo (scrape-google-linkedin.txt) into the newly available "Script" tab. Be sure to copy code from the “Raw” view in BitBucket so that the carriage returns and indentation copy correctly.
 
 ![Script Tab](https://github.com/clr2of8/Gather-Usernames-From-Google-LinkedIn-Results/raw/master/images/pastecode.png)
 
