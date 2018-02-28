@@ -1,6 +1,6 @@
 # Gathering Usernames from Google LinkedIn Results using Burp Pro
 
-As part of reconnaissance when performing a penetration test, it is often useful to gather usernames. The usernames may come in handy for performing a password spraying attack for example. One easy way to gather employee names is to use a Burp Suite Pro extension with a little Python script as described in this blog. You can then massage these employee names into any username format. You may be able to discover the username format by analyzing the metadata of documents posted to a company's public web sites as described here.
+As part of reconnaissance when performing a penetration test, it is often useful to gather usernames. The usernames may come in handy for performing a [password spraying attack](http://www.blackhillsinfosec.com/?p=4694) for example. One easy way to gather employee names is to use a Burp Suite Pro extension with a little Python script as described in this blog. You can then massage these employee names into any username format. You may be able to discover the username format by analyzing the metadata of documents posted to a company's public web sites as described [here](http://www.blackhillsinfosec.com/?p=4694).
 To collect employee names with Burp, you'll need to do the following steps.
 
 1.  Install the Python Scripter extension from the Extender-->BApp Store tab in Burp Suite Pro
