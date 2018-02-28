@@ -33,12 +33,12 @@ site:linkedin.com/in "Company Name"
 
 ![Example](https://github.com/clr2of8/Gather-Usernames-From-Google-LinkedIn-Results/raw/master/images/example2.png)
 
-The script will write the name that shows up before the text " | LinkedIn" in the search results to the output file. In this example, it would write "James Lee" and "Derek Banks". Google limits the results to 10 per page. You can click on additional pages of results to get more employee names written to the file.
+The script will write the name that shows up before the text ** | LinkedIn** or **| Professional Profile - LinkedIn** in the search results to the output file. In this example, it would write "James Lee - Hacker - Black Hills Information Security" and "Derek Banks". Google limits the results to 10 per page. You can click on additional pages of results to get more employee names written to the file.
 
 ![Google](https://github.com/clr2of8/Gather-Usernames-From-Google-LinkedIn-Results/raw/master/images/google.png)
 
 You can gather a large list of employee names quickly and easily with this method. Try importing the list to Microsoft Excel where you can use formulas to turn employee names into the appropriate username format such as first initial followed by last name. It is also a good idea to use the "Remove Duplicates" functionality in Excel since the script may export the same employee name multiple times.
 
 ## Step 6
-When you are done, unload the Python Scripter or erase the script code so you don't burden Burp with inspecting all responses for the text " | LinkedIn"
+When you are done, unload the Python Scripter or erase the script code so you don't burden Burp with inspecting all responses.
 
