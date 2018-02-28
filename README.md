@@ -33,7 +33,7 @@ site:linkedin.com/in "Company Name"
 
 ![Example](https://github.com/clr2of8/Gather-Usernames-From-Google-LinkedIn-Results/raw/master/images/example2.png)
 
-The script will write the name that shows up before the text ** | LinkedIn** or **| Professional Profile - LinkedIn** in the search results to the output file. In this example, it would write "James Lee - Hacker - Black Hills Information Security" and "Derek Banks". Google limits the results to 10 per page. You can click on additional pages of results to get more employee names written to the file.
+The script will write the name that shows up before the text " | LinkedIn" or "| Professional Profile - LinkedIn" in the search results to the output file. In this example, it would write "James Lee - Hacker - Black Hills Information Security" and "Derek Banks". Google limits the results to 10 per page. You can click on additional pages of results to get more employee names written to the file.
 
 ![Google](https://github.com/clr2of8/Gather-Usernames-From-Google-LinkedIn-Results/raw/master/images/google.png)
 
